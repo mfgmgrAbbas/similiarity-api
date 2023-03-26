@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+import { Divide, Dribbble } from 'lucide-react'
 import type { Session, User } from 'next-auth'
 import type { JWT } from 'next-auth/jwt'
 
@@ -17,3 +18,4 @@ declare module 'next-auth' {
     }
   }
 }
+

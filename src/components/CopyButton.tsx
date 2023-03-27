@@ -2,7 +2,7 @@
 
 import { Copy } from "lucide-react";
 import { ButtonHTMLAttributes, FC } from "react";
-import { toast } from "./ui/Toast";
+import { toast } from "./ui/toast";
 import Button from "./ui/Button";
 
 interface CopyButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {

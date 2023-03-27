@@ -1,6 +1,6 @@
 "use client";
 import { FC, FormEvent, useState } from "react";
-import { toast } from "@/ui/Toast";
+import { toast } from "@/components/ui/toast";
 import { createApiKey } from "@/helpers/create-api-key";
 import { Key } from "lucide-react";
 import LargeHeading from "@/ui/LargeHeading";

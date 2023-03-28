@@ -13,7 +13,7 @@ import { Loader2 } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { FC, useState } from "react";
 import Button from "./ui/Button";
-import { toast } from "@/components/ui/toast";
+import { toast } from "@/components/ui/Toast";
 
 interface ApiKeyOptionsProps {
   // passing of entire object not allowed due to date property not being serializable
